@@ -5,23 +5,29 @@
 
 ## 状态
 
-仓库于 2026-10-13 初始化，作为 DSH 工作区 A 路线（工作区根 + `projects\<项目>` 子仓库）的第一个试用仓库。
-内容待迁入。
+2026-10-13 初始化，作为 A 路线（工作区根 + `projects\<项目>` 子仓库）的第一个仓库。内容待迁入。
 
-## 目录
+## 目录约定
 
 | 路径 | 用途 |
 |---|---|
-| `scripts/` | 可复用脚本 |
-| `examples/` | 示例输入、参数 JSON 与运行说明 |
-| `output/` | 产出（图片、报告）；**不进 git** |
+| `scripts/` | 可复用脚本与库 |
+| `examples/` | 示例输入、参数 JSON、运行说明 |
+| `output/` | 产出（图片与报告）；**不进 git** |
 
-## 用法
+## 提交约定
 
-（待补：依赖、入口命令、示例数据获取方式）
+- 初始分支 `main`。
+- 提交信息说明「做了什么、为什么」，中文或英文均可。
+- 图片类产出不进仓库，只落 `output/`。
 
 ## 相关
 
-- 同名 skill 目前位于 `~/.dsh/skills/multipanel-figure-cropping/`（`SKILL.md` +
-  `scripts/panelkit.py`、`crop_panels.py`、`layout_probe.py`、`audit_crops.py`、`auto_edge_cleanup.py` + `examples/`）。
-  是否迁入本仓库尚待决定。
+- 同名 skill 位于 `~/.dsh/skills/multipanel-figure-cropping/`：`SKILL.md` +
+  `scripts/panelkit.py`、`crop_panels.py`、`layout_probe.py`、`audit_crops.py`、`auto_edge_cleanup.py` + `examples/`。
+
+## 待办
+
+- [ ] 决定是否把上述 skill 内容迁入本仓库
+- [ ] 补依赖与入口命令
+- [ ] 配置远程仓库（尚未配置，`git push` 目前无处可推）
