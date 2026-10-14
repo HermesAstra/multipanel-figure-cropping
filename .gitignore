@@ -5,10 +5,10 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 
-# 产出：图片与报告不进仓库
+# Crops and reports from a run: not tracked
 output/
 
-# 编辑器与系统
+# Editors and OS
 .vscode/
 .idea/
 Thumbs.db

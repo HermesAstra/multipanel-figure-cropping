@@ -1,0 +1,6 @@
+# Normalise line endings inside the repository, keep the platform default on checkout.
+* text=auto
+
+# Shell scripts must stay LF on every platform: a CRLF line ending breaks `#!/usr/bin/env bash`
+# (and the `set -euo pipefail` line) with "bad interpreter" / stray \r errors.
+*.sh text eol=lf

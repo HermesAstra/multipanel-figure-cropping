@@ -1,0 +1,92 @@
+{
+ "fig1c": [
+  [
+   1140,
+   0,
+   1198,
+   216
+  ]
+ ],
+ "fig1d": [
+  [
+   1128,
+   757,
+   1196,
+   832
+  ]
+ ],
+ "fig2i": [
+  [
+   420,
+   1647,
+   1338,
+   1664
+  ]
+ ],
+ "fig3i": [
+  [
+   948,
+   676,
+   985,
+   726
+  ]
+ ],
+ "fig4cd": {
+  "rects": [],
+  "vetted_by": "auto_edge_cleanup",
+  "reason": "Union crop, left seam; measured against the guard-band criterion there are no isolated stray fragments of the neighbouring figure, hence 0 segments"
+ },
+ "fig4jk": {
+  "rects": [],
+  "vetted_by": "auto_edge_cleanup",
+  "reason": "Union crop, left seam; same as above, 0 segments (the ink on the left edge belongs to this panel's own rotated axis label)"
+ },
+ "fig5hi": {
+  "rects": [
+   [
+    1304,
+    638,
+    1312,
+    650
+   ],
+   [
+    1304,
+    817,
+    1312,
+    823
+   ],
+   [
+    1304,
+    886,
+    1312,
+    895
+   ],
+   [
+    1304,
+    963,
+    1312,
+    976
+   ],
+   [
+    1304,
+    987,
+    1312,
+    1000
+   ],
+   [
+    1304,
+    1134,
+    1312,
+    1140
+   ],
+   [
+    1304,
+    1203,
+    1312,
+    1212
+   ]
+  ],
+  "vetted_by": "auto_edge_cleanup",
+  "reason": "Union crop, left seam: white out only the trailing letters of g's legend (7 narrow bands); h's vertical label is kept clear by the guard band"
+ }
+}
